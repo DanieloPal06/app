@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-background border-b">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
-          Table Tennis Analytics
+          PredictPal
         </Link>
         <nav>
           <ul className="flex space-x-4">

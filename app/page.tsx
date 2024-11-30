@@ -8,7 +8,7 @@ export default function Home() {
     <div className="space-y-16">
       {/* Hero Section */}
       <section className="text-center py-20 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-lg">
-        <h1 className="text-5xl font-bold mb-4">Table Tennis Analytics</h1>
+        <h1 className="text-5xl font-bold mb-4">PredictPal</h1>
         <p className="text-xl mb-8 max-w-2xl mx-auto">Unlock the power of data-driven betting with our advanced AI predictions for table tennis matches.</p>
         <Link href="/matches" passHref>
           <Button size="lg" className="mr-4">View Upcoming Matches</Button>
@@ -84,7 +84,7 @@ export default function Home() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="mb-4">"Table Tennis Analytics has completely transformed my betting strategy. The AI predictions are incredibly accurate!"</p>
+              <p className="mb-4">"PredictPal has completely transformed my betting strategy. The AI predictions are incredibly accurate!"</p>
               <p className="font-semibold">- John D., Professional Bettor</p>
             </CardContent>
           </Card>
@@ -105,7 +105,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="bg-primary text-primary-foreground py-16 rounded-lg text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Start Winning?</h2>
-        <p className="text-xl mb-8">Join thousands of successful bettors using Table Tennis Analytics</p>
+        <p className="text-xl mb-8">Join thousands of successful bettors using PredictPal</p>
         <Link href="/subscription" passHref>
           <Button size="lg" variant="secondary" className="mr-4">
             Start Free Trial
@@ -122,7 +122,7 @@ export default function Home() {
       <footer className="border-t py-8 mt-16">
         <div className="container mx-auto grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold mb-4">Table Tennis Analytics</h3>
+            <h3 className="font-bold mb-4">PredictPal</h3>
             <p className="text-sm text-muted-foreground">Empowering bettors with AI-driven insights and expert analysis.</p>
           </div>
           <div>
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center mt-8 text-sm text-muted-foreground">
-          © 2023 Table Tennis Analytics. All rights reserved.
+          © 2023 PredictPal. All rights reserved.
         </div>
       </footer>
     </div>

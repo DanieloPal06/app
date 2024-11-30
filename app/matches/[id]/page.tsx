@@ -1,13 +1,9 @@
 import MatchDetailsClient from './MatchDetailsClient';
 
 export async function generateStaticParams() {
-  return [
-    { id: '1' },
-    { id: '2' },
-    { id: '3' },
-    { id: '4' },
-    { id: '5' },
-  ];
+  const matchIds = ['1', '2', '3', '4', '5'];
+  const params = matchIds.map(id => ({ id }));
+  return params;
 }
 
 export default function MatchDetailsPage({ params }: { params: { id: string } }) {

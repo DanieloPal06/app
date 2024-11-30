@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Table Tennis Analytics',
+  title: 'PredictPal',
   description: 'Sports analytics and betting predictions for table tennis',
 };
 
