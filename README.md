@@ -1,3 +1,4 @@
-# app
+# App PredictPal
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/DanieloASD/app)
+- **Daniel Santamaría Álvarez** - Co-founder, CEO and CTO
+- **David Martin** - Co-founder

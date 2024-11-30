@@ -1,6 +1,5 @@
 "use client";
 
-import { useParams } from 'next/navigation';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Progress } from '@/components/ui/progress';
@@ -19,13 +18,13 @@ import {
 // Register chart.js components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
 
-export default function MatchDetails() {
-  const params = useParams();
-  const matchId = params.id;
+export default function MatchDetailsClient({ matchId }: { matchId: string }) {
+  console.log('MatchDetailsClient matchId:', matchId); // Add logging
 
-  // Mock data for match details
+  // Fetch match details based on matchId
+  // For now, using mock data
   const matchDetails = {
-    id: 1,
+    id: matchId,
     player1: { name: 'Ma Long', winPercentage: 65, pointsWon: 1250, setsWon: 45, aces: 10, faults: 3 },
     player2: { name: 'Fan Zhendong', winPercentage: 62, pointsWon: 1180, setsWon: 42, aces: 8, faults: 5 },
     time: '2023-06-01 15:00',
