@@ -7,6 +7,7 @@ export async function generateStaticParams() {
 }
 
 export default function MatchDetailsPage({ params }: { params: { id: string } }) {
+  console.log('MatchDetailsPage params:', params); // Add logging
   return (
     <div>
       <MatchDetailsClient matchId={params.id} />
